@@ -1,0 +1,30 @@
+
+
+*{
+  margin:0;
+  padding:0;
+}
+a{
+  text-decoration: none;
+}
+
+li{
+  list-style-type: none;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body{
+  font-family: var(--font-family);
+  background-image: url("https://www.transparenttextures.com/patterns/black-thread-light.png");
+  background-color: var(--background-color);
+  color:var(--text-color);
+}
+
+:root{
+  --text-color : #0D0C12;
+  --background-color: whitesmoke;
+  --primary-color: #304390;
+  --font-family: "Roboto", sans-serif;
+  --box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.05);
+}
